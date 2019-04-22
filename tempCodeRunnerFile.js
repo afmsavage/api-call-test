@@ -24,7 +24,7 @@ priceButton.addEventListener('click', function() {
       ethparagraph.innerText = ' ' + data.tron.eth + ' ' + 'ETH';
       
     };
-
+    
     request.send();
 
 });
