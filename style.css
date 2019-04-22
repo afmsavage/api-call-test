@@ -4,11 +4,13 @@ body {
   h1 {
     font-family: Arial;
     color: #ffffff;
+    align-content: center;
   }
   p {
     color: #ffffff;
     font-size: 24px;
     font-family: Arial;
+    align-content: center;
   }
   button {
     font-family: Arial;
@@ -20,4 +22,5 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 34px;
+    align-content: center;
   }
