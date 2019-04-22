@@ -4,7 +4,7 @@ var paragraph = document.getElementById('textArea');
 var priceButton = document.getElementById( "priceButton");
 
 // when button is clicked, reach out to API and get current TRX/BTC Price
-paragraph.style.display = 'none';
+// paragraph.style.display = 'none';
 priceButton.addEventListener('click', function() {
     var request = new XMLHttpRequest();
 
