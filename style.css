@@ -5,12 +5,16 @@ body {
     font-family: Arial;
     color: #ffffff;
     align-content: center;
+    margin: auto;
+    padding: 8px 0;
   }
   p {
     color: #ffffff;
     font-size: 24px;
     font-family: Arial;
     align-content: center;
+    margin: auto;
+    padding: 3px 0;
   }
   button {
     font-family: Arial;
@@ -23,4 +27,6 @@ body {
     display: inline-block;
     font-size: 34px;
     align-content: center;
+    margin: auto;
+    padding: 10px 2;
   }
