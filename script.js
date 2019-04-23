@@ -10,6 +10,10 @@ var totalButton = document.getElementById('totalButton');
 var usdTotal = document.getElementById('usdTotal');
 var btcTotal = document.getElementById('btcTotal');
 var ethTotal = document.getElementById('ethTotal');
+// ticker attempt
+var ticker = document.getElementById('ticker');
+
+var tokenTicker;
 
 // when button is clicked, reach out to API and get current TRX/BTC Price
 // paragraph.style.display = 'none';
@@ -47,7 +51,7 @@ totalButton.addEventListener('click', function() {
     var data2 = JSON.parse(this.responseText); // Begin accessing JSON data here
     // assign the TRX total to variable from the text field
     var totalTron = trxTotal.value;
-
+    tokenTicker = ticker.value;
    // Display the totals in USD/ETH/BTC
     usdTotal.style.display = 'block';
     btcTotal.style.display = 'block';
@@ -64,3 +68,6 @@ totalButton.addEventListener('click', function() {
   request2.send();
 
 }); 
+
+// todo need to figure out how to put a javascript variable into my code -- need to replace the 
+// calls to tron in the three math calculations and the URL
