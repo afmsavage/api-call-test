@@ -1,0 +1,19 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "testing out calls to an api",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afmsavage/api-call-test.git"
+  },
+  "author": "antonio savage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afmsavage/api-call-test/issues"
+  },
+  "homepage": "https://github.com/afmsavage/api-call-test#readme"
+}
